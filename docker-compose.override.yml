@@ -1,0 +1,17 @@
+
+services:
+  scheduler:
+    env_file:
+      - .env
+
+  dag-processor:
+    env_file:
+      - .env
+
+  api-server:
+    env_file:
+      - .env
+
+  triggerer:
+    env_file:
+      - .env
